@@ -1,0 +1,171 @@
+In archive C:/Users/mahesh_tripathi/eclipse-workspace/Smart_configure/build/esp-idf/main/libmain.a:
+
+smartconfig_main.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.smartconfig_example_task 00000050  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.initialise_wifi 0000005c  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.event_handler 00000024  00000000  00000000  000000e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.getSSID_PASS_FromNVS 00000030  00000000  00000000  00000104  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.setSSID_PASS_ToNVS 00000020  00000000  00000000  00000134  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.sc_callback 000000cc  00000000  00000000  00000154  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.EraseSSID_PASS_FromNVS 00000010  00000000  00000000  00000220  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.StorageTestNVS 00000038  00000000  00000000  00000230  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.app_main 0000003c  00000000  00000000  00000268  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text         00000000  00000000  00000000  000002a4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .data         00000000  00000000  00000000  000002a4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 11 .bss          00000000  00000000  00000000  000002a4  2**0
+                  ALLOC
+ 12 .rodata.str1.4 00000431  00000000  00000000  000002a4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 13 .text.smartconfig_example_task 0000009d  00000000  00000000  000006d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.initialise_wifi 000000e0  00000000  00000000  00000778  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.event_handler 00000054  00000000  00000000  00000858  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.getSSID_PASS_FromNVS 00000046  00000000  00000000  000008ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.setSSID_PASS_ToNVS 00000026  00000000  00000000  000008f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.sc_callback 000001cc  00000000  00000000  0000091c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .rodata.sc_callback 00000014  00000000  00000000  00000ae8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 20 .text.EraseSSID_PASS_FromNVS 00000017  00000000  00000000  00000afc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.StorageTestNVS 00000083  00000000  00000000  00000b14  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.app_main 00000055  00000000  00000000  00000b98  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .rodata.__func__$8042 00000010  00000000  00000000  00000bf0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 24 .rodata.__func__$8088 00000009  00000000  00000000  00000c00  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 25 .rodata.__func__$8057 0000000c  00000000  00000000  00000c0c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 26 .rodata.__func__$8068 00000019  00000000  00000000  00000c18  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 27 .bss.s_wifi_event_group 00000004  00000000  00000000  00000c34  2**2
+                  ALLOC
+ 28 .debug_frame  000000e8  00000000  00000000  00000c34  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 29 .debug_info   000025fe  00000000  00000000  00000d1c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 30 .debug_abbrev 00000347  00000000  00000000  0000331a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 31 .debug_loc    00000221  00000000  00000000  00003661  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 32 .debug_aranges 00000060  00000000  00000000  00003882  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 33 .debug_ranges 00000050  00000000  00000000  000038e2  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 34 .debug_line   0000080e  00000000  00000000  00003932  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 35 .debug_str    00001aa6  00000000  00000000  00004140  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 36 .comment      0000003c  00000000  00000000  00005be6  2**0
+                  CONTENTS, READONLY
+ 37 .xtensa.info  00000038  00000000  00000000  00005c22  2**0
+                  CONTENTS, READONLY
+ 38 .xt.lit       00000048  00000000  00000000  00005c5a  2**0
+                  CONTENTS, RELOC, READONLY
+ 39 .xt.prop      000002d0  00000000  00000000  00005ca2  2**0
+                  CONTENTS, RELOC, READONLY
+
+non_volatile_lib.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.nvs_storage_init 00000068  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.erase_storage_all 00000018  00000000  00000000  0000009c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.erase_string_in_storage 00000018  00000000  00000000  000000b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.set_string_to_storage 00000018  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.get_string_from_storage 00000024  00000000  00000000  000000e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.erase_integer_in_storage 00000018  00000000  00000000  00000108  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.set_integer_to_storage 00000018  00000000  00000000  00000120  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.get_integer_from_storage 00000014  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.erase_data_in_storage 00000018  00000000  00000000  0000014c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.set_data_to_storage 00000018  00000000  00000000  00000164  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.get_data_from_storage 00000018  00000000  00000000  0000017c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text         00000000  00000000  00000000  00000194  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 12 .data         00000000  00000000  00000000  00000194  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 13 .bss          00000000  00000000  00000000  00000194  2**0
+                  ALLOC
+ 14 .rodata.str1.4 00000165  00000000  00000000  00000194  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 15 .rodata       00000010  00000000  00000000  000002fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 16 .text.nvs_storage_init 000000d5  00000000  00000000  0000030c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.erase_storage_all 00000042  00000000  00000000  000003e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.erase_string_in_storage 00000042  00000000  00000000  00000428  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.set_string_to_storage 00000046  00000000  00000000  0000046c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.get_string_from_storage 0000007d  00000000  00000000  000004b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.erase_integer_in_storage 00000042  00000000  00000000  00000534  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.set_integer_to_storage 00000046  00000000  00000000  00000578  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.get_integer_from_storage 0000003a  00000000  00000000  000005c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.erase_data_in_storage 00000042  00000000  00000000  000005fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.set_data_to_storage 00000046  00000000  00000000  00000640  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.get_data_from_storage 0000004a  00000000  00000000  00000688  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .rodata.__func__$3354 00000011  00000000  00000000  000006d4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 28 .debug_frame  00000118  00000000  00000000  000006e8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 29 .debug_info   000009e1  00000000  00000000  00000800  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 30 .debug_abbrev 00000200  00000000  00000000  000011e1  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 31 .debug_loc    00000355  00000000  00000000  000013e1  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 32 .debug_aranges 00000070  00000000  00000000  00001736  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 33 .debug_ranges 00000060  00000000  00000000  000017a6  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 34 .debug_line   00000613  00000000  00000000  00001806  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 35 .debug_str    0000047c  00000000  00000000  00001e19  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 36 .comment      0000003c  00000000  00000000  00002295  2**0
+                  CONTENTS, READONLY
+ 37 .xtensa.info  00000038  00000000  00000000  000022d1  2**0
+                  CONTENTS, READONLY
+ 38 .xt.lit       00000058  00000000  00000000  00002309  2**0
+                  CONTENTS, RELOC, READONLY
+ 39 .xt.prop      000003b4  00000000  00000000  00002361  2**0
+                  CONTENTS, RELOC, READONLY
